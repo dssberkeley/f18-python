@@ -1,5 +1,13 @@
 
-# Created by https://www.gitignore.io/api/linux,macos,python,windows
+# Created by https://www.gitignore.io/api/linux,macos,python,windows,jupyternotebook
+
+### JupyterNotebook ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+#
 
 ### Linux ###
 *~
@@ -118,7 +126,6 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -198,4 +205,4 @@ $RECYCLE.BIN/
 *.lnk
 
 
-# End of https://www.gitignore.io/api/linux,macos,python,windows
+# End of https://www.gitignore.io/api/linux,macos,python,windows,jupyternotebook
